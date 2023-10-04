@@ -255,13 +255,13 @@ a {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  width: calc((100% - 48px) / 3);
 }
 .list {
 }
 .portfolio-item {
   margin-right: 24px;
   row-gap: 48px;
+  width: calc((100% - 48px) / 3);
 }
 
 .folio-container {
@@ -269,7 +269,6 @@ a {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
-  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-subtitle {
