@@ -4,6 +4,20 @@ body {
   color: #434455;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 p,
 h1,
 h2,
@@ -143,9 +157,9 @@ a {
 .test-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 .test-item {
+  width: calc((100% - 72px) / 4);
 }
 .test-subtitle {
   color: #2e2f42;
@@ -209,6 +223,7 @@ a {
 
 .portfolio {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .portfolio-title {
   color: #2e2f42;
@@ -226,6 +241,11 @@ a {
 }
 
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 24px;
+  margin-bottom: 48px;
+  width: calc((100% - 48px) / 3);
 }
 .list {
 }
