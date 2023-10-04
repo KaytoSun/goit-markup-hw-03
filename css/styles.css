@@ -165,6 +165,7 @@ a {
 .team {
   background-color: #f4f4fd;
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-title {
   color: #2e2f42;
@@ -177,6 +178,10 @@ a {
   margin-bottom: 72px;
 }
 .team-list {
+  display: flex;
+  margin-right: 24px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-item {
   background-color: #ffffff;
