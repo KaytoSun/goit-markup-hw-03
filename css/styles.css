@@ -207,6 +207,11 @@ a {
 .team-image {
   margin-bottom: 32px;
 }
+
+.hero-container {
+  padding: 32px 0;
+}
+
 .team-subtitle {
   color: #2e2f42;
   text-align: center;
