@@ -71,7 +71,10 @@ a {
 }
 .header-menu {
   display: flex;
-  margin-right: 40px;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
 }
 .header-menu-item {
   display: flex;
@@ -150,10 +153,6 @@ a {
   background-color: #404bbf;
 }
 
-.visually-hidden-title {
-  @include visually-hidden;
-}
-
 .test {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -197,12 +196,13 @@ a {
 }
 .team-list {
   display: flex;
-  margin-right: 24px;
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
+  gap: 24px;
 }
 .team-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+  width: calc((100% - 72px) / 4);
 }
 .team-image {
   margin-bottom: 32px;
