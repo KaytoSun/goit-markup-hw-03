@@ -121,11 +121,6 @@ a {
   padding-bottom: 188px;
 }
 
-.hero-container {
-  background: #2e2f42;
-  padding: 188px 472px 292px 472px;
-}
-
 .hero-title {
   color: #ffffff;
   text-align: center;
@@ -199,15 +194,12 @@ a {
   margin-bottom: 72px;
 }
 .team-list {
-  display: flex;
-  gap: 24px;
 }
 .team-item {
-  background-color: #ffffff;
+  background: #ffffff;
   border-radius: 0px 0px 4px 4px;
   text-align: center;
   width: calc((100% - 72px) / 4);
-  max-width: 264px;
 }
 .team-image {
   margin-bottom: 32px;
@@ -255,7 +247,9 @@ a {
 }
 
 .portfolio-list {
+  list-style: none;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
