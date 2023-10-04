@@ -79,6 +79,7 @@ a {
 .header-menu-item {
   display: flex;
   margin-right: 40px;
+  padding: 24px 0;
 }
 .header-menu-link {
   color: #2e2f42;
@@ -98,10 +99,10 @@ a {
   font-style: normal;
 }
 .contacts-list {
-}
-.contacts-menu-item {
   display: flex;
   gap: 40px;
+}
+.contacts-menu-item {
 }
 .contacts-link {
   color: #434455;
