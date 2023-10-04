@@ -79,7 +79,6 @@ a {
 .header-menu-item {
   display: flex;
   margin-right: 40px;
-  padding: 24px 0;
 }
 .header-menu-link {
   color: #2e2f42;
@@ -88,6 +87,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: flex;
+  padding: 24px 0;
 }
 
 .header-menu-link:hover,
