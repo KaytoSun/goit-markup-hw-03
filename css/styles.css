@@ -138,11 +138,11 @@ a {
 
 .test {
   padding-top: 120px;
-  padding-right: 156px;
   padding-bottom: 120px;
-  padding-left: 156px;
 }
 .test-list {
+  display: flex;
+  gap: 24px;
 }
 .test-item {
 }
@@ -243,7 +243,8 @@ a {
 
 .footer {
   background: #2e2f42;
-  padding-top: 120px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-logo {
   color: #4d5ae5;
@@ -254,6 +255,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 16px;
+  display: inline-block;
 }
 .logo {
   color: #f4f4fd;
