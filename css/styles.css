@@ -39,7 +39,6 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  display: flex;
 }
 
 .header {
@@ -47,8 +46,6 @@ a {
   padding-bottom: 24px;
 }
 .header-navigation {
-  display: flex;
-  align-items: center;
 }
 .header-logo {
   color: #4d5ae5;
@@ -74,8 +71,6 @@ a {
   margin-right: 40px;
 }
 .header-menu-item {
-  display: flex;
-  margin-right: 40px;
 }
 .header-menu-link {
   color: #2e2f42;
