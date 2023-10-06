@@ -39,7 +39,6 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
 }
 
 .header {
@@ -48,6 +47,8 @@ a {
 
 .header-container {
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo {
@@ -71,10 +72,12 @@ a {
 }
 .header-menu {
   display: flex;
+  gap: 40px;
 }
 
 .header-navigation {
   display: flex;
+  align-items: center;
 }
 
 .header-menu-item {
@@ -250,7 +253,6 @@ a {
 }
 
 .folio-img {
-  margin-bottom: 32px;
 }
 
 .portfolio-list {
@@ -269,6 +271,7 @@ a {
 .folio-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-subtitle {
