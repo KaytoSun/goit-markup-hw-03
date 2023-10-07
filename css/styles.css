@@ -37,7 +37,8 @@ a {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .header {
@@ -48,6 +49,8 @@ a {
   display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
+  align-items: center;
+  gap: 332px;
 }
 
 .header-logo {
