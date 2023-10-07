@@ -37,8 +37,7 @@ a {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 0 15px;
 }
 
 .header {
@@ -165,6 +164,20 @@ a {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .test-list {
   display: flex;
   gap: 24px;
@@ -206,13 +219,13 @@ a {
   padding-bottom: 120px;
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 .team-item {
   background: #ffffff;
   border-radius: 0px 0px 4px 4px;
   text-align: center;
   max-width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 .team-image {
 }
