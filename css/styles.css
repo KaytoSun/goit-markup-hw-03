@@ -47,6 +47,7 @@ a {
 
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -96,6 +97,7 @@ a {
 }
 
 .contacts {
+  margin-left: auto;
   font-style: normal;
 }
 .contacts-list {
@@ -109,6 +111,8 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
 }
 
 .contacts-link:hover,
@@ -120,9 +124,6 @@ a {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-}
-
-.hero-container {
 }
 
 .hero-title {
@@ -213,7 +214,6 @@ a {
   margin-bottom: 72px;
 }
 .team-list {
-  padding-bottom: 120px;
   display: flex;
   gap: 24px;
 }
@@ -227,7 +227,7 @@ a {
 .team-image {
 }
 
-.hero-container {
+.team-container {
   padding: 32px 0;
 }
 
